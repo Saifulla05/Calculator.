@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+  padding-top: 8.5%;
+  border: 2px solid #ccc; /* Adding border around content */
+  border-radius: 370px; /* Rounded corners for the border */
+  border-width: 100px;
+  background-color: #f9f9f9; /* Background color for the content */
+}
+
+h1 {
+  text-align: center;
+  color: #333; /* Changing heading color */
+}
+
+form {
+  text-align: center;
+}
+
+input[type="submit"] {
+  padding: 12px 24px; /* Slightly increased padding for the submit button */
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px; /* Increased font size */
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+p#result {
+  text-align: center;
+  font-size: 20px; /* Increased font size */
+  font-weight: bold;
+  margin-top: 20px;
+  color: #333; /* Changing text color */
+}
